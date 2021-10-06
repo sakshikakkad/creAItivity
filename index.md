@@ -10,19 +10,21 @@ We propose to train a machine learning model to classify images based on their a
 ### Approach
 Our dataset will come from online databases such as Flickr and Wikimedia commons. We will classify these images in our machine learning model based on the Reisenzein mood model, which organizes emotions in 2 dimensions based on valence and arousal. We will gather 2000 images per category, resulting in a total of 8000 images. 
 
-![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/master/ModelWithImages.jpg)
+![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/gh-pages/ModelWithImages.jpg)
 
 We plan on using a Deep Learning algorithm (Convolutional Neural Network) to analyze our data. We will either use public CNN architectures such as ResNet or VGG-16, or create our own using python. We will analyze the HSV color content of the images (hue, saturation, value), as well as other potential features including shapes and textures. We will then map these images based on their features to the four different emotion sets. 
 
-![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/master/HSV.png)
+![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/gh-pages/HSV.png)
 
 We will first run this model based on our original dataset of 8000 images, then again on a modified dataset of rotated/inverted images to see if the model Is improved. Another parameter to consider is the inclusion of people in images, as facial features or other characteristics of people can influence the “mood” of an image.  
 
 ### Potential Results
 We expect that the inclusion of people in images could skew the results because the model may not pick up on these characteristics. We also expect to see the model categorize images with warmer hues, higher saturation, and a higher value (more bright) as euphoric (quadrant 1 on the Reisenzein model), while images with cooler hues, lower saturation, and lower values will be classified as melancholy (quadrant 3). 
 
+![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/gh-pages/PotentialResults.png)
+
 ### Timeline
-![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/master/timeline%20updated.png)
+![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/gh-pages/timeline%20updated.png)
 
 ### References
 1. [Content-based mood classification for photos and music: a generic multi-modal classification framework and evaluation approach](https://dl.acm.org/doi/abs/10.1145/1460096.1460114)
