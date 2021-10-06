@@ -21,7 +21,7 @@ We will first run this model based on our original dataset of 8000 images, then 
 ### Potential Results
 We expect that the inclusion of people in images could skew the results because the model may not pick up on these characteristics. We also expect to see the model categorize images with warmer hues, higher saturation, and a higher value (more bright) as euphoric (quadrant 1 on the Reisenzein model), while images with cooler hues, lower saturation, and lower values will be classified as melancholy (quadrant 3). 
 
-![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/gh-pages/PotentialResults.png)
+![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/gh-pages/PotentialResults.jpg)
 
 ### Timeline
 ![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/gh-pages/timeline%20updated.png)
