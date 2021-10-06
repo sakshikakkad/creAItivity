@@ -30,3 +30,4 @@ We expect that the inclusion of people in images could skew the results because 
 1. [Content-based mood classification for photos and music: a generic multi-modal classification framework and evaluation approach](https://dl.acm.org/doi/abs/10.1145/1460096.1460114)
 2. [Building Emotional Machines: Recognizing Emotions through Deep Neural Networks](https://arxiv.org/abs/1705.07543)
 3. [Image Retrieval by Emotional Semantics: A Study of Emotional Space and Feature Extraction](https://ieeexplore.ieee.org/document/4274431)
+4. [Seeing Stars of Valence and Arousal in Blog Posts](https://ieeexplore.ieee.org/document/6365167)
