@@ -12,7 +12,7 @@ Our dataset will come from online databases such as Flickr and Wikimedia commons
 
 
 We plan on using a Deep Learning algorithm (Convolutional Neural Network) to analyze our data. We will either use public CNN architectures such as ResNet or VGG-16, or create our own using python. We will analyze the HSV color content of the images (hue, saturation, value), as well as other potential features including shapes and textures. We will then map these images based on their features to the four different emotion sets. 
-![Image](https://en.wikipedia.org/wiki/HSL_and_HSV#/media/File:HSV_color_solid_cylinder_saturation_gray.png)
+![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/master/HSV_color_solid_cylinder_saturation_gray.png)
 
 We will first run this model based on our original dataset of 8000 images, then again on a modified dataset of rotated/inverted images to see if the model Is improved. Another parameter to consider is the inclusion of people in images, as facial features or other characteristics of people can influence the “mood” of an image.  
 
