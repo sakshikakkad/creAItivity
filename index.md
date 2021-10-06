@@ -10,6 +10,7 @@ We propose to train a machine learning model to classify images based on their a
 ### Approach
 Our dataset will come from online databases such as Flickr and Wikimedia commons. We will classify these images in our machine learning model based on the Reisenzein mood model, which organizes emotions in 2 dimensions based on valence and arousal. We will gather 2000 images per category, resulting in a total of 8000 images. 
 
+![Image](https://github.com/Nathan-Wang-GT/crealtivity.github-io/blob/master/ModelWithImages.jpg)
 
 We plan on using a Deep Learning algorithm (Convolutional Neural Network) to analyze our data. We will either use public CNN architectures such as ResNet or VGG-16, or create our own using python. We will analyze the HSV color content of the images (hue, saturation, value), as well as other potential features including shapes and textures. We will then map these images based on their features to the four different emotion sets. 
 
