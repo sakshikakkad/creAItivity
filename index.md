@@ -1,5 +1,5 @@
 # Art Mood Identifier
-**by team creAItivity - Sakshi, Anna, Ahn, TK, Nathan**
+**by Team creAItivity - Sakshi, Anna, Ahn, TK, Nathan**
 
 ### Introduction
 In recent years, developments in digital media technologies as well as easy access to content (through social media platforms and other online sources) require developments in data retrieval and processing tools. Images can be categorized by metadata (keywords or tags) or can be retrieved through content-based image retrieval systems, which classify images based on information contained within the images themselves. However, it is still difficult to retrieve and classify images based on variable, “human” characteristics such as emotion.  
