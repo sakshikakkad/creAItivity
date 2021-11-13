@@ -11,11 +11,14 @@ We propose to train a machine learning model to classify images based on their a
 We obtained our dataset from a dataset used by Saif Mohammad in WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art. This dataset contains 4,105 images that were categorized into emotions based off surveys. For our project, we compiled these images under 7 classes: Euphoric, Aggressive, Calm, Euphoric and Calm (E+C), Aggresive and Calm (A+C), Euphoric and Aggressive (A+E), and all emotions present (A+C+E). After organizing the photos into their respective classes, we downloaded all of the images, resized them into 125x125 pixel RGB images, and saved them in Google Drive.
 
 ### Methods
+For this project, our team decided to use Convolutional Neural Networks (CNNs) for image classification. The code was written using Tensorflow on [Google Colab](https://colab.research.google.com/drive/1RVi2QEySIPyt_gGwJScBd_CXnIL-ghts?usp=sharing). We first gathered the photos from Google Drive and split them into training and testing data (80% was for training and 20% was for testing). Following that, we created a Sequential Model that performed four Convolutions and Max Poolings followed by a Dense function, which resulted in the creation of 1,867,815 total paramaters. We then ran the data through the CNN with 10 epochs.
+
 
 ### Results
-We expect that the inclusion of people in images could skew the results because the model may not pick up on these characteristics. We also expect to see the model categorize images with warmer hues, higher saturation, and a higher value (more bright) as euphoric (quadrant 1 on the Reisenzein model), while images with cooler hues, lower saturation, and lower values will be classified as melancholy (quadrant 3). 
+After running the photos through the CNN code above, we got these two charts as outputs:
 
-![Image](PotentialResults.jpg)
+![Image](CNN_Output.JPG)
+
 
 ### Future Considerations
 
