@@ -24,12 +24,10 @@ After running the photos through the CNN code above, we got these two charts as 
 
 ![Image](CNN_Output.JPG)
 
+Based off the current method, while training data seems to result in very high accuracy, the validation accuracy seems to decrease. This indicates that the current Sequential model may be overfitting too much.
 
 ### Future Considerations
+Since our current CNN structure does not perform as well as we desired, we are planning on adjusting the model so that it performs better. One way is to tweak the number of hidden layers and perceptrons. Other potential solutions may include tweaking common CNN network architectures such as AlexNet or VGG-16.
 
-
-### References
-1. [Content-based mood classification for photos and music: a generic multi-modal classification framework and evaluation approach](https://dl.acm.org/doi/abs/10.1145/1460096.1460114)
-2. [Building Emotional Machines: Recognizing Emotions through Deep Neural Networks](https://arxiv.org/abs/1705.07543)
-3. [Image Retrieval by Emotional Semantics: A Study of Emotional Space and Feature Extraction](https://ieeexplore.ieee.org/document/4274431)
-4. [Seeing Stars of Valence and Arousal in Blog Posts](https://ieeexplore.ieee.org/document/6365167)
+### Future Research Links
+1. [Illustrated: 10 CNN Architectures](https://towardsdatascience.com/illustrated-10-cnn-architectures-95d78ace614d)
