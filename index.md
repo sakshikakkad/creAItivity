@@ -21,7 +21,7 @@ The code is shown below:
 
 Afterwards, we also tested using dropout and with commonly used CNN architecture such as LeNet-5, LeNet-5 using Relu, and AlexNet. These architecture were tested with 15 epochs.
 
-Lenet-5 Code:
+LeNet-5 Code:
 
 ![Image](LeNet-5.JPG)
 
