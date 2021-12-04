@@ -23,7 +23,7 @@ Afterwards, we also tested using dropout and with commonly used CNN architecture
 
 Lenet-5 Code:
 
-![Image](Lenet-5.JPG)
+![Image](LeNet-5.JPG)
 
 ### Results
 After running the photos through the CNN code above, we got these two charts as outputs:
