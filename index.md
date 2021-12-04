@@ -34,7 +34,7 @@ Based off the current method, while training data seems to result in very high a
 
 When we tried adding dropout to limit overfitting, we got these two charts:
 
-![Image](CNN_Dropout)
+![Image](CNN_Dropout.JPG)
 
 While the accuracy of both training and validation both were closer to each other, the overall accuracy dropped for training.
 
