@@ -26,11 +26,19 @@ LeNet-5 Code:
 ![Image](LeNet-5.JPG)
 
 ### Results
-After running the photos through the CNN code above, we got these two charts as outputs:
+After running the photos through the original CNN code, we got these two charts as outputs:
 
 ![Image](CNN_Output.JPG)
 
 Based off the current method, while training data seems to result in very high accuracy, the validation accuracy seems to decrease. This indicates that the current Sequential model may be overfitting too much.
+
+When we tried adding dropout to limit overfitting, we got these two charts:
+
+![Image](CNN_Dropout)
+
+While the accuracy of both training and validation both were closer to each other, the overall accuracy dropped for training.
+
+
 
 ### Future Considerations
 Since our current CNN structure does not perform as well as we desired, we are planning on adjusting the model so that it performs better. One way is to tweak the number of hidden layers and perceptrons. Other potential solutions may include tweaking common CNN network architectures such as AlexNet or VGG-16.
