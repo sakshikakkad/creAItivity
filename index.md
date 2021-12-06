@@ -21,6 +21,20 @@ We used a simple CNN model using Keras Sequential(), as shown below:
 
 We evaluated multiple CNN architectures and fit them to our data. These include modifying our original model to include a Dropout layer, LeNet-5, LeNet-5 with Relu activation, and AlexNet. The model structures are shown below:
 
+Original CNN:
+![Image](cnn_summary.png)
+
+CNN with Dropout:
+![Image](dropout_summary.png)
+
+LeNet-5:
+![Image](lenet_summary.png)
+
+LeNet-5 with Relu:
+![Image](lenet_relu_summary.png)
+
+AlexNet:
+![Image](alexnet_summary.png)
 
 
 ### Results
