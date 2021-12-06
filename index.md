@@ -13,17 +13,15 @@ We obtained our dataset from a dataset used by Saif Mohammad in WikiArt Emotions
 ![Image](PhotoStructure.JPG)
 
 ### Methods
-For this project, our team decided to use Convolutional Neural Networks (CNNs) for image classification. The code was written using Tensorflow on [Google Colab](https://colab.research.google.com/drive/1RVi2QEySIPyt_gGwJScBd_CXnIL-ghts?usp=sharing). We first gathered the photos from Google Drive and split them into training and testing data (80% was for training and 20% was for testing). Following that, we originally created a Sequential Model that performed four Convolutions and Max Poolings followed by a Dense function, which resulted in the creation of 1,867,815 total paramaters. We then ran the data through the CNN with 10 epochs.
+For this project, our team decided to use Convolutional Neural Networks (CNNs) for image classification. The code was written using Keras with Tensorflow on [Google Colab](https://colab.research.google.com/drive/1RVi2QEySIPyt_gGwJScBd_CXnIL-ghts?usp=sharing). We first gathered the photos from Google Drive and split them into training and testing data (80% was for training and 20% was for testing). We then created a Sequential Model that performed three Convolutions and Max Poolings followed by a Dense function, which resulted in the creation of 1,867,815 total paramaters. We then ran the data through the CNN with 10 epochs.
 
-The code is shown below:
+We used a simple CNN model using Keras Sequential(), as shown below:
 
 ![Image](CNN_1.JPG)
 
-Afterwards, we also tested using dropout and with commonly used CNN architecture such as LeNet-5, LeNet-5 using Relu, and AlexNet. These architecture were tested with 15 epochs.
+We evaluated multiple CNN architectures and fit them to our data. These include modifying our original model to include a Dropout layer, LeNet-5, LeNet-5 with Relu activation, and AlexNet. The model structures are shown below:
 
-LeNet-5 Code:
 
-![Image](LeNet-5.JPG)
 
 ### Results
 After running the photos through the original CNN code, we got these two charts as outputs:
