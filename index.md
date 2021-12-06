@@ -8,7 +8,22 @@ In recent years, developments in digital media technologies as well as easy acce
 We propose to train a machine learning model to classify images based on their associated emotions. The ability to classify images in this way would be useful for social media platforms and image retrieval tools, as it would allow access to more relevant digital media through queries made with “human” parameters rather than empirical ones. Social media platforms and marketing agencies can more accurately display and recommend content for users when algorithms are better trained to interpret data qualitatively.  
 
 ### Data Collection
-We obtained our dataset from a dataset used by Saif Mohammad in WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art. This dataset contains 4,105 images that were categorized into emotions based off surveys. For our project, we compiled these images under 7 classes: Euphoric, Aggressive, Calm, Euphoric and Calm (E+C), Aggresive and Calm (A+C), Euphoric and Aggressive (A+E), and all emotions present (A+C+E). After organizing the photos into their respective classes, we downloaded all of the images, resized them into 125x125 pixel RGB images, and saved them in Google Drive. The structure of the image allocation was set up as this:
+We obtained our dataset from a dataset used by Saif Mohammad in WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art. This dataset contains 4,105 images that were categorized by emotions based off surveys from 10 respondents. 
+
+
+
+The original dataset contained extra features that were not necessary for our machine learning model. These included style, category, artist, year, etc. The features kept were image ID, emotions present (for simplicity only 3 emotions are shown below), and image url for downloading purposes.
+
+
+We further sorted the emotions into four categories based on the Reisenzein Mood Model. These categories are Aggressive, Euphoric, Melancholy, and Calm. These labels correspond to the four quadrants of the valence arousal graph of the mood model as depicted below.
+
+![Image](OriginalReisenzeinModel.png)
+
+The merged dataset is shown below. However, due to the dataset and our merge operations, a large number of datapoints were categorized under multiple classes. For example, Row 2 in the table has a 1 in both the Euphoric and Melancholy categories.
+
+
+
+We decided to create separate classes for the duplicates, and to limit the number of classes we merged Melancholy with Calm. The final 7 classes were as follows: Euphoric, Aggressive, Calm, Euphoric and Calm (E+C), Aggresive and Calm (A+C), Euphoric and Aggressive (A+E), and all emotions present (A+C+E). After organizing the photos into their respective classes, we downloaded all of the images, resized them into 125x125 pixel RGB images, and saved them in Google Drive. The structure of the image allocation was set up as this:
 
 ![Image](PhotoStructure.JPG)
 
@@ -105,3 +120,4 @@ The highest accuracy we were able to achieve with our data was 50%. While our mo
 3. [mage Retrieval by Emotional Semantics: A Study of Emotional Space and Feature Extraction](https://ieeexplore.ieee.org/document/4274431)
 4. [Visual-Based Emotional Descriptor and Feedback Mechanism for Image Retrieval](https://www.semanticscholar.org/paper/Visual-Based-Emotional-Descriptor-and-Feedback-for-Yoo/1c53645d05e5b5bce6ca87fbe4f20c3397bc1f27)
 5. [Building Emotional Machines: Recognizing Image Emotions through Deep Neural Networks](https://arxiv.org/pdf/1705.07543.pdf)
+6. [WikiArt Emotions Dataset](http://saifmohammad.com/WebPages/wikiartemotions.html)
