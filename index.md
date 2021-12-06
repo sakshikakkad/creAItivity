@@ -22,33 +22,46 @@ We used a simple CNN model using Keras Sequential(), as shown below:
 We evaluated multiple CNN architectures and fit them to our data. These include modifying our original model to include a Dropout layer, LeNet-5, LeNet-5 with Relu activation, and AlexNet. The model structures are shown below:
 
 Original CNN:
+
 ![Image](cnn_summary.png)
 
+
 CNN with Dropout:
+
 ![Image](dropout_summary.png)
 
 LeNet-5:
+
 ![Image](lenet_summary.png)
 
+
 LeNet-5 with Relu:
+
 ![Image](lenet_relu_summary.png)
 
+
 AlexNet:
+
 ![Image](alexnet_summary.png)
 
 
+
 ### Results
-After running the photos through the original CNN code, we got these two charts as outputs:
+After running the photos through the original CNN code, we generated graphs of accuracy and loss for both the training and testing data.
 
 ![Image](CNN_Output.JPG)
 
 Based off the current method, while training data seems to result in very high accuracy, the validation accuracy seems to decrease. This indicates that the current Sequential model may be overfitting too much.
 
-When we tried adding dropout to limit overfitting, we got these two charts:
+We then added a Dropout layer with a rate of 0.2 to reduce overfitting.
 
 ![Image](CNN_Dropout.JPG)
 
 While the accuracy of both training and validation both were closer to each other, the overall accuracy dropped for training.
+
+We then implemented existing CNN architectures as discussed above to improve our accuracy and loss. The first model implemented was LeNet-5, which uses 2 convolutional and 3 fully connected layers.
+
+
 
 
 
