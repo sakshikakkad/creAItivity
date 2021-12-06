@@ -10,7 +10,7 @@ We propose to train a machine learning model to classify images based on their a
 ### Data Collection
 We obtained our dataset from a dataset used by Saif Mohammad in WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art. This dataset contains 4,105 images that were categorized by emotions based off surveys from 10 respondents. 
 
-![Image](infographic.JPG)
+![Image](infographic.jpg)
 
 The original dataset contained extra features that were not necessary for our machine learning model. These included style, category, artist, year, etc. The features kept were image ID, emotions present (for simplicity only 3 emotions are shown below), and image url for downloading purposes.
 
