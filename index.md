@@ -45,26 +45,31 @@ Original CNN:
 
 ![Image](cnn_summary.png)
 
+RMSE = 1.9835198877344709
 
 CNN with Dropout:
 
 ![Image](dropout_summary.png)
 
+RMSE = 1.921354484064592
+
 LeNet-5:
 
 ![Image](lenet_summary.png)
 
+RMSE = 1.7504634064740057
 
 LeNet-5 with Relu:
 
 ![Image](lenet_relu_summary.png)
 
+RMSE = 1.8066881682804534
 
 AlexNet:
 
 ![Image](alexnet_summary.png)
 
-
+RMSE = 1.8087995259814835
 
 
 ### Results
