@@ -126,3 +126,7 @@ The highest accuracy we were able to achieve with our data was 50%. While our mo
 4. [Visual-Based Emotional Descriptor and Feedback Mechanism for Image Retrieval](https://www.semanticscholar.org/paper/Visual-Based-Emotional-Descriptor-and-Feedback-for-Yoo/1c53645d05e5b5bce6ca87fbe4f20c3397bc1f27)
 5. [Building Emotional Machines: Recognizing Image Emotions through Deep Neural Networks](https://arxiv.org/pdf/1705.07543.pdf)
 6. [WikiArt Emotions Dataset](http://saifmohammad.com/WebPages/wikiartemotions.html)
+
+### Project Video
+
+[![Emotions in Art Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
