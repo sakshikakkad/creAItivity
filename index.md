@@ -134,4 +134,4 @@ The highest accuracy we were able to achieve with our data was 50%. While our mo
 
 ### Project Video
 
-[![Emotions in Art Video](video.jpg)](https://vimeo.com/653916819)
+[![Emotions in Art Video](video.jpg)](https://vimeo.com/653916819?share=copy)
