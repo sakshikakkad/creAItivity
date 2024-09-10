@@ -2,7 +2,7 @@
 
 [Our Process](https://sakshikakkad.github.io/creAItivity/)
 
-[Video Presentation](https://vimeo.com/653916819)
+[Video Presentation](https://vimeo.com/653916819?share=copy)
 
 [Dataset](http://saifmohammad.com/WebPages/wikiartemotions.html)
 
